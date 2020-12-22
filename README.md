@@ -78,10 +78,11 @@
 &emsp;&emsp;其他的缺什么依赖就pip install xxx，需要的东西不多<br/><br/>
 
 ### 2.运行方法
-&emsp;&emsp;下载预训练文件放在pretrained-weight文件夹里。<br/>
+&emsp;&emsp;1. 下载预训练模型放在pretrained-weight文件夹里；<br/>
 &emsp;&emsp;&emsp;&emsp;预训练模型下载地址：https://pan.baidu.com/s/12Kv9DkyhLE5sWEiwm59_IA  提取码：pela <br/> <br/>
-&emsp;&emsp;input文件夹里放置视频文件和mask文件，编辑demo.py选中任务和文件位置，然后运行python demo.py。<br/>
-&emsp;&emsp;&emsp;&emsp;输入样例下载地址：https://pan.baidu.com/s/1R366Zu8TGMyv5C9kXkC9Gw  提取码：x73i <br/><br/><br/><br/>
+&emsp;&emsp;2. 将视频文件和mask文件放在input文件夹里，编辑demo.py选中对应文件位置(或通过命令行参数)；<br/>
+&emsp;&emsp;&emsp;&emsp;输入样例下载地址：https://pan.baidu.com/s/1R366Zu8TGMyv5C9kXkC9Gw  提取码：x73i <br/>
+&emsp;&emsp;3. 图标擦除任务运行``python demo.py delogo``；字幕擦除任务运行``python demo.py detext``。<br/><br/><br/><br/>
 
 # 训练方法
 ### 训练数据
