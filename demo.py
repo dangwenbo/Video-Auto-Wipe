@@ -19,7 +19,7 @@ from core.utils import Stack, ToTorchFormatTensor
 
 parser = argparse.ArgumentParser(description="STTN")
 
-parser.add_argument("-t", "--task", type=str, default='delogo', help='choose the task：delogo or detext')
+parser.add_argument("task", type=str, help='CHOOSE THE TASK：delogo or detext')
 parser.add_argument("-v", "--video", type=str, default='input/delogo_examples/test_01.mp4')
 parser.add_argument("-m", "--mask",  type=str, default='input/delogo_examples/mask/test_01_mask.png')
 parser.add_argument("-r", "--result",  type=str, default='result/')
@@ -174,6 +174,7 @@ def main_for_delogo():  # delogo
             comps2 = process(frames2, model, device, w, h)
         if mode is not []:
             for j in range(end_f-start_f):
+                frame_ori = frames_hr[j].copy()
                 frame = frames_hr[j]
                 if 'left' in mode or 'top' in mode:
                     comp = cv2.resize(comps1[j], (square, square))
@@ -190,7 +191,7 @@ def main_for_delogo():  # delogo
                         mask_area = mask[-square:, :square, :]
                         frame[-square:, :square, :] = mask_area * comp + (1 - mask_area) * frame[-square:, :square, :]
                 if args.dual:
-                    frame = np.vstack([frames_hr[j], frame])
+                    frame = np.vstack([frame_ori, frame])
                 writer.write(frame)
 
     writer.release()
@@ -250,6 +251,7 @@ def main_for_detext():  # detext
 
         if mode is not []:
             for j in range(end_f - start_f):
+                frame_ori = frames_hr[j].copy()
                 frame = frames_hr[j]
                 for k in range(len(mode)):
                     comp = cv2.resize(comps[k][j], (frame_info['W_ori'], split_h))
@@ -257,7 +259,7 @@ def main_for_detext():  # detext
                     mask_area = mask[mode[k][0]:mode[k][1], :]
                     frame[mode[k][0]:mode[k][1], :, :] = mask_area * comp + (1 - mask_area) * frame[mode[k][0]:mode[k][1], :, :]
                 if args.dual:
-                    frame = np.vstack([frames_hr[j], frame])
+                    frame = np.vstack([frame_ori, frame])
                 writer.write(frame)
 
     writer.release()
