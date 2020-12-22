@@ -83,7 +83,7 @@
 &emsp;&emsp;2. 将视频文件和mask文件放在input文件夹里，编辑demo.py(或通过命令行参数)选中对应文件位置；<br/>
 &emsp;&emsp;&emsp;&emsp;输入样例下载地址：https://pan.baidu.com/s/1R366Zu8TGMyv5C9kXkC9Gw  提取码：x73i <br/> <br/>
 &emsp;&emsp;3. 图标擦除任务运行：``python demo.py delogo``<br/>
-&emsp;&emsp;&emsp;字幕擦除任务运行：``python demo.py detext``。<br/><br/><br/><br/>
+&emsp;&emsp;&emsp;字幕擦除任务运行：``python demo.py detext``<br/><br/><br/><br/>
 
 # 训练方法
 ### 训练数据
