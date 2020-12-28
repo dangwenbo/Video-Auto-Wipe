@@ -62,7 +62,7 @@ commercial use is prohibited without authorization. For details of the algorithm
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/others/detext3.mp4' target='_blank'>Watch video/a></p>
 <br/><br/>
 
-### 3.4 Test4 - Korean with mixed languages
+### 3.4 Test4 - Korean, .etc
 ![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/detext_9_ko.JPG)<br/>
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/others/detext4.mp4' target='_blank'>Watch video</a></p>
 <br/><br/>
