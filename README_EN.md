@@ -1,7 +1,7 @@
 # Video-Auto-Wipe
 &emsp;&emsp;I occasionally make some fun and interesting algorithm models based on generative technology. The work I brought this time is an application model in the task of "video inpainting". Its function is to automatically perceive the parts of the video that we don’t want to see (such as advertisements, watermark, subtitles, icons, etc.) and then erase it. At present, the "trial version" model has been opened for everyone to play, hoping to help friends in need. Please note that I made this model to help you improve your work efficiency, please use it in a compliant and appropriate way. I am not responsible for the results of your use.<br />
 &emsp;&emsp;I will continue to explore and produce new technical content in generative models. There are still many playable points based on the generative technology, and this project only shows one of the practical examples. The model's copyright of this project belongs to: [www.seeprettyface.com](www.seeprettyface.com), directly
-commercial use is prohibited without authorization, for details of the algorithm, please refer to my [research notes](http://www.seeprettyface.com/research_notes_page3.html)。<br/><br/><br/><br/>
+commercial use is prohibited without authorization. For details of the algorithm, please refer to my [research notes](http://www.seeprettyface.com/research_notes_page3.html)。<br/><br/><br/><br/>
 
 # Effect preview
 ## 1. Icon erase
