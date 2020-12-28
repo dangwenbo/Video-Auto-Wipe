@@ -7,67 +7,67 @@
 &emsp;&emsp;图标擦除模型的功能是模型自动感知到视频中图标的位置然后进行擦除，感知图标的方法为在时域上静止不动的小块像素块被视作图标。<br/><br/>
 
 ### 1.1 测试1-电视剧的台标、剧名和角标擦除
-![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-logo/测试01-电视剧1.JPG)<br/>
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-logo/delogo_1.JPG)<br/>
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/delogo_01.mp4' target='_blank'>查看视频</a></p>
 <br/><br/>
 
 ### 1.2 测试2-足球赛的台标、状态栏擦除
-![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-logo/测试04-足球赛.JPG)<br/>
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-logo/delogo_2.JPG)<br/>
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/delogo_02.mp4' target='_blank'>查看视频</a></p>
 <br/><br/>
 
 ### 1.3 测试3-综艺节目的台标、状态栏擦除
-![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-logo/测试06-综艺片段-台标角标遮挡.JPG)<br/>
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-logo/delogo_3.JPG)<br/>
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/delogo_03.mp4' target='_blank'>查看视频</a></p>
 <br/><br/>
 
 ### 1.4 测试4-短视频MV的遮挡图标擦除
-![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-logo/测试07-音乐MV.JPG)<br/>
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-logo/delogo_4.JPG)<br/>
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/delogo_04.mp4' target='_blank'>查看视频</a></p>
 <br/><br/>
 
 ### 1.5 测试5-短视频MV的遮挡水印擦除
-![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-logo/测试08-自媒体视频1.JPG)<br/>
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-logo/delogo_5.JPG)<br/>
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/delogo_05.mp4' target='_blank'>查看视频</a></p>
 <br/><br/>
 
 ### 1.6 测试6-新闻媒体的台标擦除
-![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-logo/测试10-新闻媒体素材.JPG)<br/>
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-logo/delogo_6.JPG)<br/>
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/delogo_06.mp4' target='_blank'>查看视频</a></p>
 <br/><br/><br/><br/>
 
 ## 2. 动态图标擦除
 &emsp;&emsp;动态图标擦除模型的功能是模型自动感知到视频中动态图标的位置然后进行擦除，感知动态图标的方法为在时域上闪烁出现或动态移动的固定像素块被视作动态图标，这个在制作上有一定难度所以还没有对外开放。<br/><br/>
 ### 2.1 测试1-闪烁出现的特效文字擦除
-![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-dynamic-logo/测试-动态字幕擦除_1.JPG)<br/><br/>
-![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-dynamic-logo/测试-动态字幕擦除_2.JPG)<br/>
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-dynamic-logo/de-dynamic-logo_1.JPG)<br/><br/>
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-dynamic-logo/de-dynamic-logo_2.JPG)<br/>
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/de_dynamic_logo.mp4' target='_blank'>查看视频</a></p>
 <br/><br/><br/><br/> 
 
 ## 3. 字幕擦除
 &emsp;&emsp;字幕擦除模型的功能是模型自动感知到视频中字幕的位置然后进行擦除，感知字幕的方法为具有统一样式的文字区域被视作字幕。
 ### 3.1 测试1-电影字幕擦除
-![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/测试03-电影片段2.JPG)<br/>
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/detext_1.JPG)<br/>
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/detext_01.mp4' target='_blank'>查看视频</a></p>
 <br/><br/>
 
 ### 3.2 测试2-电视剧字幕擦除
-![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/测试05-电视剧.JPG)<br/>
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/detext_2.JPG)<br/>
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/detext_02.mp4' target='_blank'>查看视频</a></p>
 <br/><br/>
 
 ### 3.3 测试3-综艺节目字幕擦除
-![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/测试06-综艺片段1.JPG)<br/>
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/detext_3.JPG)<br/>
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/detext_03.mp4' target='_blank'>查看视频</a></p>
 <br/><br/>
 
 ### 3.4 测试4-综艺节目特殊字幕擦除
-![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/测试08-综艺片段3.JPG)<br/>
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/detext_4.JPG)<br/>
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/detext_04.mp4' target='_blank'>查看视频</a></p>
 <br/><br/>
 
 ### 3.5 测试5-网络视频字幕擦除
-![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/测试11-网络媒体素材3.JPG)<br/>
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/detext_5.JPG)<br/>
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/detext_05.mp4' target='_blank'>查看视频</a></p>
 <br/><br/><br/><br/>
 
@@ -103,10 +103,9 @@
 &emsp;&emsp;字幕擦除模型在单卡2080Ti上训练4天；<br/>
 
 <br/><br/><br/><br/>
-# 合作意向
-&emsp;&emsp;这个项目目前还只是自己做着好玩的，开放出的模型是比较糙的训练结果（在揉合的数据集上直接训练）。所以如果您有需求的话，可以联系我做一些更定制化的模型。当然也不局限在图标和字幕的擦除上，视频擦除的衍伸任务也有很多，譬如敏感内容擦除、背景人擦除、指定物体擦除等等，只要有数据的话目前的技术都是可以实现的。<br/>
-&emsp;&emsp;我的QQ：312863063。<br/>
-&emsp;&emsp;我的邮箱：a312863063@126.com。<br/>
+# 衍伸玩法
+&emsp;&emsp;这个项目目前还只是自己做着好玩的，开放出的模型是比较糙的训练结果（在揉合的数据集上直接训练）。视频擦除的衍伸任务也有很多，譬如敏感内容擦除、背景人擦除、指定物体擦除等等，只要能寻找到有像素预测的场景数据+有像素预测的应用需求都是“视频擦除”可以发挥作用的情景。<br/>
+
 <br/><br/><br/><br/>
 
 # 了解更多
