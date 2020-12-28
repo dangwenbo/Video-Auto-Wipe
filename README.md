@@ -69,6 +69,11 @@
 ### 3.5 测试5-网络视频字幕擦除
 ![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/detext_5.JPG)<br/>
 <p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/detext_05.mp4' target='_blank'>查看视频</a></p>
+<br/><br/>
+
+### 3.6 测试6-小语种字幕擦除
+![Image text](https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/de-text/detext_9_ko.JPG)<br/>
+<p align="center"><a href='http://www.seeprettyface.com/mp4/video-inpainting/detext_06.mp4' target='_blank'>查看视频</a></p>
 <br/><br/><br/><br/>
 
 
