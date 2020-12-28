@@ -82,7 +82,7 @@ commercial use is prohibited without authorization. For details of the algorithm
 &emsp;&emsp;1. Download the pre-trained model and place it in the ``pretrained-weight`` folder;<br/>
 &emsp;&emsp;&emsp;&emsp;Pre-trained model download link:https://drive.google.com/file/d/16PWnlOEDfdQ1RzwHhW5n_WPAHrG_MMea/view?usp=sharing; <br/> <br/>
 &emsp;&emsp;2. Put the video file and mask file in the ``input`` folder, edit demo.py (or use command line) to select the corresponding file location;<br/>
-&emsp;&emsp;&emsp;&emsp;Input samples download address:https://drive.google.com/file/d/1uw2Y7dF3q7oMQ70vq-j4PcFzSdQoWs9a/view?usp=sharing;<br/> <br/>
+&emsp;&emsp;&emsp;&emsp;Input samples download address:https://drive.google.com/file/d/1KECp6E77XAOZH590Ak9HvSo_KK0eRvLg/view?usp=sharing;<br/> <br/>
 &emsp;&emsp;3. Icon erasing task runs:``python demo.py delogo``<br/>
 &emsp;&emsp;&emsp;Subtitle erasing task runs:``python demo.py detext``<br/><br/><br/><br/>
 
