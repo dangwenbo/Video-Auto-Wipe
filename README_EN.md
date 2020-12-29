@@ -114,6 +114,7 @@ commercial use is prohibited without authorization. For details of the algorithm
 # Learn more
 
 &emsp;&emsp;Although most of the current CV landing projects are focused on perception and recognition tasks, and there is relatively little research and development on reconstruction and generation tasks, however this should not affect our judgment on the value of generation technology, after all, generation technology is relatively new Research directions with fewer participants but meantime it has a wide range of applications. I will continue to devote to the research and development of landing algorithms that explore the direction of generation. Welcome to visit my website to learn about the latest research progress in this area， the website is:[www.seeprettyface.com](http://www.seeprettyface.com)。<br/>
+&emsp;&emsp;If you have the intention of cooperation, I welcome you to contact me to see if we can create more value together.<br />
 <p align="center">
 	<img src="https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/cover.png" alt="Sample" width="512" >
 </p>
