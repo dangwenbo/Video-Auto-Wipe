@@ -103,8 +103,8 @@
 &emsp;&emsp;The subtitle erasure model is trained on one 2080Ti-GPU for 4 days;<br/>
 
 <br/><br/><br/><br/>
-# Derivative play
-&emsp;&emsp;This project is currently just doing it for fun, and the open model is a rough training result (training directly on the mixed data set). There are many extension tasks for video erasing, such as sensitive content (pornography, violence, etc.) erasing, advertisement erasing, designated person/object erasing, background person erasing, etc., as long as you can find scenes with pixel predictions where "video erasure" can show its ability greatly~<br/>
+# Follow-up plan
+&emsp;&emsp;This project is currently only a short-term attempt. The released model is a rough training result (trained roughly on the mixed data set). There are still many more interesting tasks about video inpainting, such as sensitive content (pornography, violence, etc.) erasing, advertisement erasing, designated person/object erasing, background person erasing, etc., as long as you can find scenes with pixel predictions where "video erasure" can show its great ability~<br/>
 <p align="center">
 	<img src="https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/undo.png" alt="Sample" width="640" >
 </p>
