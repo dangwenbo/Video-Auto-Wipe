@@ -104,7 +104,7 @@
 
 <br/><br/><br/><br/>
 # Follow-up plan
-&emsp;&emsp;This project is currently only a short-term attempt. The released model is a rough training result (trained roughly on the mixed data set). There are still many more interesting tasks about video inpainting, such as sensitive content (pornography, violence, etc.) erasing, advertisement erasing, designated person/object erasing, background person erasing, etc., as long as you can find scenes with pixel predictions where "video erasure" can show its great ability~<br/>
+&emsp;&emsp;This project is currently only a short-term attempt. The released model is a rough training result (trained roughly on the mixed data set), maybe I will follow up on this project sometime later. There are still many more interesting tasks about video inpainting, such as sensitive content (pornography, violence, etc.) erasing, advertisement erasing, designated person/object erasing, background person erasing, etc., as long as you can find scenes with pixel predictions where "video erasure" can show its great ability~<br/>
 <p align="center">
 	<img src="https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/undo.png" alt="Sample" width="640" >
 </p>
