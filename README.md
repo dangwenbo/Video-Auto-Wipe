@@ -86,7 +86,7 @@
 
 ### 2.运行方法
 &emsp;&emsp;1. 下载预训练模型放在pretrained-weight文件夹里；<br/>
-&emsp;&emsp;&emsp;&emsp;预训练模型下载地址：https://pan.baidu.com/s/12Kv9DkyhLE5sWEiwm59_IA  提取码：pela <br/> <br/>
+&emsp;&emsp;&emsp;&emsp;预训练模型下载地址：链接：https://pan.baidu.com/s/1ubZHkgkcskS7Bpg8ZbtoRQ  提取码：ricn  <br/> <br/>
 &emsp;&emsp;2. 将视频文件和mask文件放在input文件夹里，编辑demo.py(或通过命令行参数)选中对应文件位置；<br/>
 &emsp;&emsp;&emsp;&emsp;输入样例下载地址：https://pan.baidu.com/s/1rfdAwxomCVjTJ1zwl7hu3g  提取码：qk64 <br/> <br/>
 &emsp;&emsp;3. 图标擦除任务运行：``python demo.py delogo``<br/>
@@ -99,7 +99,6 @@
 &emsp;&emsp;&emsp;&emsp;下载地址：https://pan.baidu.com/s/1CIgJmFmx5iR2JfgAyjVaeg  提取码：xb7o <br/><br/>
 &emsp;&emsp;3.基于搜集的40余部综艺节目制作了864部综艺片段数据集；<br/>
 &emsp;&emsp;&emsp;&emsp;下载地址：https://pan.baidu.com/s/1lJk6IIWlwxknAie0LlGYOg  提取码：9rd4 <br/><br/>
-&emsp;&emsp;4.基于搜集的180,000余张图标素材制作了36,000余张图标数据集。<br/><br/>
 
 ### 训练过程
 &emsp;&emsp;第1步. 针对特定任务的时域感知训练；<br/>
@@ -110,8 +109,8 @@
 &emsp;&emsp;字幕擦除模型在单卡2080Ti上训练4天；<br/>
 
 <br/><br/><br/><br/>
-# 后续计划
-&emsp;&emsp;这个项目目前还只是做了很短期的尝试，开放出的模型是比较糙的训练结果（在揉合的数据集上直接训练）。视频擦除可玩的点还有很多，譬如敏感内容（涉黄涉暴等）擦除、广告擦除、指定人/物擦除、背景人擦除等等，只要能寻找到有像素预测的场景+有像素预测的需求都是“视频擦除”可以玩出花样的情景~<br/>
+# 更多玩法
+&emsp;&emsp;这个项目目前还只是做了很短期的尝试，实际上视频擦除可玩的点还有很多，譬如敏感内容（涉黄涉暴等）擦除、广告擦除、指定人/物擦除、背景人擦除等等。只要是能寻找到有像素预测的场景+有像素预测的需求都是“视频擦除”可以玩出花样的情景~<br/>
 <p align="center">
 	<img src="https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/undo.png" alt="Sample" width="640" >
 </p>
@@ -120,7 +119,6 @@
 # 了解更多
 &emsp;&emsp;本人的研究方向是生成模型的应用技术研究。生成技术解决的问题是像素的预测，也就是在一个有缺失/完全缺失的图像棋盘上进行像素的填补/预测，使填补/预测完的图像符合真实图像的规律。基于这种模式可展开的玩法有很多，除了我之前做的数字人生成、视频内容生成等，我们还可以拓展出更多并行的思路出来。<br/>
 &emsp;&emsp;尽管目前大部分的CV落地项目都集中在感知和识别任务上，而对于重构和生成任务的研发相对较少，但这不应影响我们对于生成技术价值的判断，毕竟生成技术是相对较新、参与人较少，但是应用前景较广的研究方向。我后续将持续致力于探索生成方向的落地型算法研发，欢迎访问我的网站了解这方面最新的研究进展：[www.seeprettyface.com](http://www.seeprettyface.com)。<br/>
-&emsp;&emsp;如果您有合作意向的话，也欢迎您来联系我，我一直在寻求一些有价值的需求或者方向，如果您有想法的话说不定我们能一起创造更多的价值。<br/>
 <p align="center">
 	<img src="https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/cover.png" alt="Sample" width="512" >
 </p>
