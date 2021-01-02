@@ -98,7 +98,7 @@
 &emsp;&emsp;Step 2. Fine-tuning of the fusioned inapainting model.<br/>
 <br/>
 ### Training configuration
-&emsp;&emsp;Recently I found a very simple method of production and training<br/>
+Recently I found a very simple method of production and training:<br/>
 &emsp;&emsp;The icon erasure model is trained on one 3090-GPU for 3 days;<br/>
 &emsp;&emsp;The subtitle erasure model is trained on one 3090-GPU for 2 days;<br/>
 
