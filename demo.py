@@ -20,11 +20,11 @@ from core.utils import Stack, ToTorchFormatTensor
 parser = argparse.ArgumentParser(description="STTN")
 
 parser.add_argument("task", type=str, help='CHOOSE THE TASK：delogo or detext')
-parser.add_argument("-v", "--video", type=str, default='input/delogo_examples/test_01.mp4')
-parser.add_argument("-m", "--mask",  type=str, default='input/delogo_examples/mask/test_01_mask.png')
+parser.add_argument("-v", "--video", type=str, default='input/detext_examples/chinese1.mp4')
+parser.add_argument("-m", "--mask",  type=str, default='input/detext_examples/mask/chinese1_mask.png')
 parser.add_argument("-r", "--result",  type=str, default='result/')
 parser.add_argument("-d", "--dual",  type=bool, default=False, help='Whether to display the original video in the final video')
-parser.add_argument("-w", "--weight",   type=str, default='pretrained-weight/delogo_trial.pth')
+parser.add_argument("-w", "--weight",   type=str, default='pretrained-weight/detext_trial.pth')
 
 parser.add_argument("--model", type=str, default='auto-sttn')
 parser.add_argument("-g", "--gap",   type=int, default=200, help='set it higher and get result better')
