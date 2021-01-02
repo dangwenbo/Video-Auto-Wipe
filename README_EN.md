@@ -1,5 +1,5 @@
 # Video-Auto-Wipe
-&emsp;&emsp;I occasionally make some fun and interesting algorithm models based on generative technology. The work I brought this time is an application model in the task of "video inpainting". Its function is to automatically perceive the parts of the video that we don’t want to see (such as advertisements, watermark, subtitles, icons, etc.) and then erase it. At present, the "trial version" model has been opened for everyone to play, hoping to help friends in need. Please note that I made this model to help you improve your work efficiency, please use it in a compliant and appropriate way. I am not responsible for the results of your use.<br />
+&emsp;&emsp;I occasionally make some fun and interesting algorithm models based on generative technology. The work I brought this time is an application model in the task of "video inpainting". Its function is to automatically perceive the parts of the video that we don’t want to see (such as advertisements, watermark, subtitles, icons, etc.) and then erase it. Since the icon erasing model has the potential to be used for copyright infringement, I only share the subtitle erasing model for now, and I hope it can help everyone.<br />
 &emsp;&emsp;I will continue to explore and produce new technical content in generative models. There are still many playable points based on the generative technology, and this project only shows one of the practical examples. The model's copyright of this project belongs to: [www.seeprettyface.com](www.seeprettyface.com), please do not use it in commercial way without authorization. For details of the algorithm, please refer to my [research notes](http://www.seeprettyface.com/research_notes_page3.html)。<br/><br/><br/><br/>
 
 # Effect preview
@@ -79,7 +79,7 @@
 
 ### 2.Operation method
 &emsp;&emsp;1. Download the pre-trained model and place it in the ``pretrained-weight`` folder;<br/>
-&emsp;&emsp;&emsp;&emsp;Pre-trained model download link:https://drive.google.com/file/d/16PWnlOEDfdQ1RzwHhW5n_WPAHrG_MMea/view?usp=sharing; <br/> <br/>
+&emsp;&emsp;&emsp;&emsp;Pre-trained model download link:https://drive.google.com/file/d/1VQrHUzCLTTZCBxm-2Jw8PcJUsGs84K_h/view?usp=sharing; <br/> <br/>
 &emsp;&emsp;2. Put the video file and mask file in the ``input`` folder, edit demo.py (or use command line) to select the corresponding file location;<br/>
 &emsp;&emsp;&emsp;&emsp;Input samples download address:https://drive.google.com/file/d/1KECp6E77XAOZH590Ak9HvSo_KK0eRvLg/view?usp=sharing;<br/> <br/>
 &emsp;&emsp;3. Icon erasing task runs:``python demo.py delogo``<br/>
@@ -92,28 +92,26 @@
 &emsp;&emsp;&emsp;&emsp;download link:https://pan.baidu.com/s/1CIgJmFmx5iR2JfgAyjVaeg  code: xb7o <br/><br/>
 &emsp;&emsp;3.Based on the collected more than 40 variety shows, 864 variety-show fragment datasets were produced;<br/>
 &emsp;&emsp;&emsp;&emsp;download link:https://pan.baidu.com/s/1lJk6IIWlwxknAie0LlGYOg  code: 9rd4 <br/><br/>
-&emsp;&emsp;4.Based on the collected 180,000 icon materials, more than 36,000 icon datasets were created.<br/><br/>
 
 ### Training process
 &emsp;&emsp;Step 1. Time domain perception training for specific tasks;<br/>
 &emsp;&emsp;Step 2. Fine-tuning of the fusioned inapainting model.<br/>
 <br/>
 ### Training configuration
-&emsp;&emsp;The icon erasure model is trained on one 3090-GPU for 6 days;<br/>
-&emsp;&emsp;The subtitle erasure model is trained on one 2080Ti-GPU for 4 days;<br/>
+&emsp;&emsp;Recently I found a very simple method of production and training<br/>
+&emsp;&emsp;The icon erasure model is trained on one 3090-GPU for 3 days;<br/>
+&emsp;&emsp;The subtitle erasure model is trained on one 3090-GPU for 2 days;<br/>
 
 <br/><br/><br/><br/>
-# Follow-up plan
-&emsp;&emsp;This project is currently only a short-term attempt. The released model is a rough training result (trained roughly on the mixed data set), maybe I will follow up on this project sometime later. There are still many more interesting tasks about video inpainting, such as sensitive content (pornography, violence, etc.) erasing, advertisement erasing, designated person/object erasing, background person erasing, etc., as long as you can find scenes with pixel predictions where "video erasure" can show its great ability~<br/>
+# More play
+&emsp;&emsp;This project is currently only a short-term attempt, actually there are lots of extential tasks about video inpainting, such as sensitive content (pornography, violence, etc.) erasing, advertisement erasing, designated person/object erasing, background person erasing, etc., as long as you can find scenes with pixel predictions where "video erasure" can show its great ability~<br/>
 <p align="center">
 	<img src="https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/undo.png" alt="Sample" width="640" >
 </p>
 <br/><br/><br/><br/>
 
 # Learn more
-
 &emsp;&emsp;Although most of the current CV landing projects are focused on perception and recognition tasks, and there is relatively little research and development on reconstruction and generation tasks, however this should not affect our judgment on the value of generation technology, after all, generation technology is relatively new Research directions with fewer participants but meantime it has a wide range of applications. I will continue to devote to the research and development of landing algorithms that explore the direction of generation. Welcome to visit my website to learn about the latest research progress in this area， the website is:[www.seeprettyface.com](http://www.seeprettyface.com)。<br/>
-&emsp;&emsp;If you have the intention of cooperation, I welcome you to contact me to see if we can create more value together.<br />
 <p align="center">
 	<img src="https://github.com/a312863063/Video-Auto-Wipe/blob/main/pics/cover.png" alt="Sample" width="512" >
 </p>
